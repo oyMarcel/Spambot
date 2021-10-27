@@ -10,9 +10,9 @@ name = "SpamBot"
 print(name + " by " + author + " " + version)
 time.sleep(0.5)
 print("Use 'spam' to start spamming and use 'about' for more info or type 'exit' to exit")
-cmmd = input()
+cmd = input()
 
-if cmmd == "about":
+if cmd == "about":
     print("Made by oyMarcel")
     print("Made to spam!")
     time.sleep(4)
@@ -24,7 +24,7 @@ if cmmd == "about":
         exit(0)
     
 
-elif cmmd == "spam":
+elif cmd == "spam":
     print("Type the word you desire to spam")
     word = input()
     print("Type 'confirm' to confirm you want to spam or type 'exit' to exit")
@@ -46,7 +46,7 @@ elif cmmd == "spam":
         exit(0)
 
 
-elif cmmd == "exit":
+elif cmd == "exit":
     print("Bye!")
     time.sleep(1)
     exit(0)
